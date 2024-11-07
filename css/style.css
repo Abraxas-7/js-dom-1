@@ -24,7 +24,6 @@ body {
 
 #lampadina {
     width: 250px;
-    transition: opacity 0.3s ease;
 }
 
 button {
