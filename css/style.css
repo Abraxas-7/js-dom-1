@@ -1,0 +1,41 @@
+/* RESSET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+#lampadina {
+    width: 250px;
+    transition: opacity 0.3s ease;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
